@@ -46,7 +46,7 @@ export function Item({
 							<>{icon}</>
 						))}
 					<div className="min-w-0 flex-1 px-4 justify-start">
-						<h1 className="text-gray-700 dark:text-white text-lg font-bold text-left">
+						<h1 className="text-gray-700 dark:text-white text-base font-bold text-left">
 							{title}
 						</h1>
 						{description && (
