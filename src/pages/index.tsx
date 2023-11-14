@@ -32,7 +32,7 @@ const ACTIONS: Array<NavigationItem> = [
 	{
 		type: NavigationItemType.LINK,
 		external: true,
-		href: 'https://github.com/nurodev',
+		href: 'https://github.com/brduckdev',
 		icon: <Icon className="mr-3" icon="feather:github" />,
 		text: 'GitHub',
 	},
@@ -40,10 +40,9 @@ const ACTIONS: Array<NavigationItem> = [
 
 const Projects: Project[] = [
 	{
-		description:
-			'Bilingual English Tutor, offering customized lessons and tips based on your native language.',
-		name: 'Linguist Tutor',
-		url: 'https://chat.openai.com/g/g-2NPPIfbgD-linguist-tutor',
+		description: 'Customized lessons and tips based on your native language.',
+		name: 'Bilingual English Tutor',
+		url: 'https://chat.openai.com/g/g-2NPPIfbgD-bilingual-english-tutor',
 		icon: <Image className="mr-3" src={'/aichat.png'} width={70} height={70} />,
 		template: false,
 	},
