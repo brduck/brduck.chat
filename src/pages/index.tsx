@@ -40,9 +40,9 @@ const ACTIONS: Array<NavigationItem> = [
 
 const Projects: Project[] = [
 	{
-		description: 'Customized lessons and tips based on your native language.',
-		name: 'Bilingual English Tutor',
-		url: 'https://chat.openai.com/g/g-2NPPIfbgD-bilingual-english-tutor',
+		description: 'Customized English lessons and tips based on your native language.',
+		name: 'Bilingual Tutor',
+		url: 'https://chat.openai.com/g/g-2NPPIfbgD-bilingual-tutor',
 		icon: <Image className="mr-3" src={'/aichat.png'} width={70} height={70} />,
 		template: false,
 	},
